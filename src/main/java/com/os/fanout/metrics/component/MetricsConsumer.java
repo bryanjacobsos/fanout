@@ -1,15 +1,14 @@
-package com.os.fanout.traces.component;
+package com.os.fanout.metrics.component;
 
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
 @Component
-public class AbstractConsumer {
+public class MetricsConsumer {
 
     @PostConstruct
     void init() {
-        System.out.println("starting consumer");
+        System.out.println("MetricsConsumer **************************");
     }
-
 }
